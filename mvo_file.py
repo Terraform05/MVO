@@ -41,3 +41,14 @@ for trial in range(trial_n):
     efficient_frontier_data.append([t_weights, t_risk, t_return, t_sharpe])
 efficient_frontier_data = pd.DataFrame(efficient_frontier_data, columns=['Weights', 'Risk', 'Return', 'Sharpe'])
 
+# max sharpe
+i = efficient_frontier_data['Sharpe'].idxmax()
+max_sharpe = efficient_frontier_data.iloc[i, :]
+
+#min risk
+i = efficient_frontier_data['Risk'].idxmin()
+min_risk = efficient_frontier_data.iloc[i, :]
+
+#max return
+i = efficient_frontier_data['Return'].idxmax()
+max_return = efficient_frontier_data.iloc[i, :]
