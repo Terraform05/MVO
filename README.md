@@ -8,6 +8,9 @@ This repository demonstrates the application of **Mean Variance Optimization (MV
 - **Efficient Frontier**: A graphical representation of the optimal portfolios that offer the highest expected return for a defined level of risk.
 - **Sharpe Ratio**: A measure of the risk-adjusted return of a portfolio.
 
+## Mean-Variance Optimization Report (PDF)
+[Access the MVO Report](./MVO_AlexRamirez.pdf)
+
 ## Structure
 - **Python Implementation** (`MVO.ipynb` & `mvo_file.py`):
   - Importing historical stock data using `yfinance`
@@ -39,6 +42,8 @@ This repository demonstrates the application of **Mean Variance Optimization (MV
 ## Visuals
 - **Matplotlib Plots**: Close price, correlation matrix, percent change, and cumulative product.
 - **Plotly Plots**: Interactive visualizations for better exploration of data.
+
+![Efficient Frontier](efficient_frontier.png)
 
 ## Reference
 Based on [MVO_AlexRamirez.pdf](./MVO_AlexRamirez.pdf), this project implements the concepts described therein, including portfolio optimization using Python and Excel for more effective financial decision-making.
